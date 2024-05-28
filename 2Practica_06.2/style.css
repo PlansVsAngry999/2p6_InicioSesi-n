@@ -1,0 +1,143 @@
+/*
+    Página web 22/4/2024
+    Elaborado por Ricardo Daniel Hernández Sosa (PlansVsAngry999)
+*/
+    /*Fuentes*/
+@font-face {
+    font-family:'monse' ;
+    src: url("Monse.ttf");
+}
+@font-face {
+    font-family: 'quick';
+    src: url("quick.ttf");
+}
+    /*Etiquetas*/
+body{
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+}
+h1{
+    margin:0;
+    margin-bottom: 0;
+    padding: 0;
+    font-family: 'quick';
+    display:inline;
+}
+    /*Clases para index.html*/
+.labelDatos{
+    color: white;
+    margin-bottom: 0;
+}
+.caja{
+    margin: auto;
+    padding: 5%;
+    background-color: rgba(87, 83, 83, 0.67);
+    text-align: center;
+    color: beige;
+    font-family: 'monse';
+    border-radius: 20%;
+}
+.btnIniciar{
+    width: 30%;
+    margin: 0;
+    background-color: #5f63a3;
+    color: white;
+    border: 0;
+    border-radius: 15%;
+}
+.btnReset{
+    margin: 0;
+    background-color: #cf5252;
+    color: white;
+    border: 0;
+    border-radius: 15%;
+}
+.pError{
+    font-size: x-small;
+    color: #cf5252;
+}
+.freeSPAM{
+    width: 50%;
+    align-items: right;
+    
+}
+.spamMarquee{
+    text-decoration: dashed;
+    text-decoration-color: #6B4054;
+    font-family: 'quick';
+    background-color: #D1605C;
+    color: white;
+}
+    /*Clases para spam.html*/
+.headerSPAM{
+    width: auto;
+    margin:0;
+    padding: 2%;
+        /*Estilizar*/
+    font-size: 250%;
+    font-family: 'monse';
+    text-align:center;
+    background-color: #E47C60;
+    color: antiquewhite;
+}
+.navSPAM{
+        /*Posicionar*/
+    margin-left: 2%;
+    margin-right: 3.5%; 
+    display: flex;
+    flex-direction: row-reverse;
+        padding: 0;
+        margin: 0;
+        /*Estilizar*/
+    font-family: 'monse';
+    background-color: #8F5443;
+    color: antiquewhite;
+}
+    /*nav ul{
+        margin: 0;
+        display:flex;
+        list-style:none;
+        height: 120%;
+    }
+    nav li{     
+    padding: 2%;
+    font-family: 'monse';
+    font-size: large;
+    background-color:#e3966298;
+    }*/
+.sectionSPAM{
+    margin-right:2%;
+    padding: 5%;
+    width: auto;
+    align-items: center;
+        /*Estilizar*/
+    font-family: 'monse';
+    background-color: #ffffff;
+}
+    /*Identificadores*/
+    /*Hover's*/
+.btnIniciar:hover{
+    transition: all ease 1s;
+    background-color: #7ab359;
+    border-radius: 50%;
+}
+.btnReset:hover{
+    transition: all ease 1s;
+    background-color: rgb(209, 79, 111);
+    border-radius: 30%;
+}
+nav li:hover{
+    transition: all .5s;
+    border-radius: 50%;
+    background-color: #E39562;
+}
+.freeSPAM:hover{
+    transition: all 2s;
+    rotate: 360deg;
+}

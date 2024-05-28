@@ -1,0 +1,36 @@
+<!--
+    Página web con un formulario de inicio de sesión 22/4/2024
+    Elaborado por Ricardo Daniel Hernández Sosa (PlansVsAngry999)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>2Practica 06</title>
+</head>
+<body>
+    <div class="caja">
+        <form id="formulario">
+            <h2>Iniciar sesión</h2>
+                <!--Solicitar datos-->
+            <p class="labelDatos">Usuario</p>
+            <input placeholder="Ingresa tu nombre..." type="text" id="user" required>
+            <p class="pError" id="errorUser"></p>
+            <p class="labelDatos">Contraseña</p>
+                <input placeholder="Ingresa tu contraseña..." type="password" id="pwd" >
+            <p class="pError" id="errorPwd"></p>
+            <br>
+
+                <!--Botones-->
+            <button class="btnIniciar" type="submit" id="enviar" >Submit</button>
+            <button class="btnReset" type="reset" class="botonReset">Reset</button>
+            <br>
+            
+
+        </form>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
